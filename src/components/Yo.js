@@ -69,7 +69,7 @@ export default function Yo() {
 
                 </div>
            
-                <h6 className="llr-title llr-lachs mt-5"> { t('yo_motto') }:</h6>
+                <h6 className="llr-title llr-lachs mt-5"> { t('yo_motto') }</h6>
                 <h6 className="llr-title llr-lachs">  I don’t think code is beautiful </h6>
                 <h6 className="llr-title llr-lachs">  I think it is beyond it.  📢   </h6>
         </div>
