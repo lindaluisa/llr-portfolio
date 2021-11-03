@@ -14,8 +14,8 @@ export default function Yo() {
     <section id="llr-hi" className="encuentra p-5">
         <div className="">
 
-        <div className="d-flex justify-content-between align-items-baseline">
-            <h3 className="llr-title"><span className="llr-numeration">05</span> &lt; { t('hi') } / &gt;</h3>
+        <div className="d-flex justify-content-between align-items-center">
+            <h3 className="llr-title mr-2"><span className="llr-numeration">05</span> &lt; { t('hi') } /&gt;</h3>
             <a href="#top" className="llr-arrow-up"> {t('to_the_top')} &#8593; </a>
         </div>
 
@@ -32,7 +32,7 @@ export default function Yo() {
                         </div>
                     </div>
 
-                    <div className="mt-3 w-75">
+                    <div className="mt-3 w-100">
 
                         <h6 className="llr-subtitle"> Linda Luisa Rosenthal</h6>
                         <h6><i className="fab fa-js-square llr-yo-icon"></i> { t('yo_web') } | <i className="fa fa-stethoscope llr-yo-icon" aria-hidden="true"></i> { t('yo_med')} | <i className="fas fa-brain llr-yo-icon"></i> { t('yo_psych') }</h6>

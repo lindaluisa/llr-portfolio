@@ -32,11 +32,11 @@ export default function Navbar() {
   return (
         <>
               <div className="llr-brand-wrapper">
-                  <a className="llr-brand" href="#" > &lt; {t('name')} <span className="llr-brand1">  {t('surname')} </span>/ &gt;</a>
+                  <a className="llr-brand" href="#" > &lt; {t('name')} <span className="llr-brand1">  {t('surname')} </span>/&gt;</a>
               </div>
 
                 <div>
-                      <nav>
+                      <nav class="llr-small">
                           <div className="d-flex align-items-center justify-content-between pl-5 pr-5">
                           
                           <div>

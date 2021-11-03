@@ -12,13 +12,13 @@ export default function About() {
       <div className="row align-items-center"> 
           <div className="col">
 
-              <div className="d-flex  justify-content-between align-items-baseline">
-                  <h3 className="llr-title"><span className="llr-numeration">01</span> &lt; {t('about')} / &gt; </h3>
+              <div className="d-flex  justify-content-between align-items-center">
+                  <h3 className="llr-title mr-2"><span className="llr-numeration">01</span> &lt; {t('about')} / &gt; </h3>
                   <a href="#top" className="llr-arrow-up"> {t('to_the_top')} &#8593; </a>
               </div>
 
               <h6 className="llr-subtitle"> {t('about_subtitle')} </h6>
-                  <div className="llr-about">
+                  <div className="llr-about llr-small">
                     <p>
                       { t('about_p1') }
                     </p>

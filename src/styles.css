@@ -87,6 +87,7 @@ circle {
     font-size: 9px;
     font-family: arial;
     text-transform: uppercase;
+    text-align: center;
 }
 
 /* BOOTSTRAP OVERWRITES */
@@ -181,12 +182,15 @@ circle {
     text-transform: uppercase;
     line-height: 30px;  
     font-size: 1rem;
+    margin-top:10px;
 }
 
-.llr-skills-tite {
+.llr-skills-title {
     font-size: 1rem;
+    font-family: var(--sansSerif);
+    text-transform: uppercase;
+    font-weight: 600;
 }
-
 
 .llr-tech-wrapper  {
     background-position-x: center;
@@ -376,6 +380,45 @@ circle {
 
 
 /* MEDIA QUERIES */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 812px) {
+    .llr-brand,
+    .llr-brand1 {
+        font-size: 2.35rem;
+    }
+    
+    .llr-vita-job {
+        font-size: 13px;;
+        word-wrap: break-word;
+    }
+
+    .llr-vita-textsm {
+        font-size: 12px;
+        font-family: var(--serif);
+    }
+
+    .llr-arrow-up {
+        width: 20%;
+    }
+
+    .llr-title {
+        font-size: 1.5rem;
+    }  
+
+    .llr-title-resp{
+        font-size: 1.25rem;
+    }
+
+    .llr-small {
+        font-size: 14px;
+    }
+
+    .llr-subtitle {
+        line-height: 14px;
+        font-size: 12px;
+    }
+
+}
 
 @media only screen 
 and (min-device-width : 768px) 
