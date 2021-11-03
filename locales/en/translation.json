@@ -7,7 +7,7 @@
   "hobby" : "all things sports, dance, longevity & art",
   "to_the_top": "all the way up",
   "about" : "Hi, there!",
-  "about_subtitle" : "A little about me. My name is Linda. I’m a second-year medical student who happens to be fall for programming.",
+  "about_subtitle" : "A little about me. My name is Linda. I’m a second-year medical student who happens to fall for programming.",
   "techsuite" : "Tech Suite",
   "techsuite_subtitle1" : "Check out my latest ",
   "techsuite_subtitle2" : " projects.",
@@ -91,5 +91,5 @@
   "yo_web" : "Web Developer",
   "yo_psych" : "Psychologist",
   "yo_cta" : "I'm looking forward to hearing from you.",
-  "yo_motto" : "My motto 📢 :"
+  "yo_motto" : "My motto:"
 }
