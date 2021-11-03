@@ -25,7 +25,7 @@ function App() {
 
       return (
         <div className="App">
-          <a name="top"></a>
+        <a name="top"></a>
 
         <CookieConsent 
           debug={true}

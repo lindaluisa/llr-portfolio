@@ -8,17 +8,17 @@ import classNames from 'classnames'
 const languages = [
         {
         code: 'en',
-        name: 'EN',
+        name: 'en',
         country_code: 'gb'
     },
     {
         code: 'de',
-        name: 'DE',
+        name: 'de',
         country_code: 'de'
     },
         {
         code: 'es',
-        name: 'ES',
+        name: 'es',
         country_code: 'es'
     }
 ]
@@ -36,7 +36,7 @@ export default function Navbar() {
               </div>
 
                 <div>
-                      <nav class="llr-small">
+                      <nav className="llr-small">
                           <div className="d-flex align-items-center justify-content-between pl-5 pr-5">
                           
                           <div>
@@ -61,8 +61,6 @@ export default function Navbar() {
                                     {languages.map(  ({code, name, country_code})  => (
                                         <li key={country_code} className="nav-item llr-nav">
                                             <a 
-                                                // className="nav-link active"
-                                                
                                                 className={classNames('nav-link active', {
                                                 disabled: currentLangCode === code,
                                                 })}

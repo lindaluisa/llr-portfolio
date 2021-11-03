@@ -329,8 +329,8 @@ circle {
     bottom: 0;
     left: 0;
     right: 0;
-    width: 14.5rem;
-    height: 16.5rem;
+    width: 16rem;
+    height: 18.5rem;
     opacity: 0;
     transition: .3s ease;
     background-color: #fdd4cf;;

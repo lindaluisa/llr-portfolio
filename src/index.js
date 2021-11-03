@@ -17,7 +17,7 @@ i18n
   .use(LanguageDetector)
   .use(HttpApi)
   .init({
-    debug: true,
+    debug: false,
     supportedLngs: languages,
     fallbackLng: "en",
     ns: ['translation'],
@@ -26,8 +26,8 @@ i18n
       caches: ['cookie'],
     },
     backend: {
-      loadPath: loadPath,
-    }
+      loadPath: `${process.env.PUBLIC_URL}/locales/{{lng}}/{{ns}}.json`
+      }
   })
 
 

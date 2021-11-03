@@ -24,15 +24,15 @@ export default function Yo() {
                 <div className="d-md-flex d-lg-flex justify-content-around align-items-center">
 
 
-                    <div className="container llr-container">
-                        <img className=" container rounded-circle llr-eu" alt="100x100" src={euImg}
+                    <div className="llr-container">
+                        <img className="rounded-circle llr-eu" alt="100x100" src={euImg}
                         data-holder-rendered="true"/>
-                        <div className="container rounded-circle llr-overlay">
+                        <div className="rounded-circle llr-overlay">
                             <div className="llr-hola"> ¡Hola! </div>
                         </div>
                     </div>
 
-                    <div className="mt-3 w-100">
+                    <div className="mt-3">
 
                         <h6 className="llr-subtitle"> Linda Luisa Rosenthal</h6>
                         <h6><i className="fab fa-js-square llr-yo-icon"></i> { t('yo_web') } | <i className="fa fa-stethoscope llr-yo-icon" aria-hidden="true"></i> { t('yo_med')} | <i className="fas fa-brain llr-yo-icon"></i> { t('yo_psych') }</h6>
